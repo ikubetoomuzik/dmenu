@@ -6,17 +6,17 @@ static int centered = 0;                    /* -c option; centers dmenu on scree
 static int min_width = 500;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"monospace:size=10"
+	"Anonymous Pro:size=12"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#eeeeee", "#005577" },
-	[SchemeSelHighlight] = { "#ffc978", "#005577" },
-	[SchemeNormHighlight] = { "#ffc978", "#222222" },
+	[SchemeNorm] = { "#bbbbbb", "#282a36" },
+	[SchemeSel] = { "#f8f8f2", "#ff79c6" },
+	[SchemeSelHighlight] = { "#f1fa8c", "#ff79c6" },
+	[SchemeNormHighlight] = { "#f1fa8c", "#282a36" },
 	[SchemeOut] = { "#000000", "#00ffff" },
-	[SchemeMid] = { "#eeeeee", "#770000" },
+	[SchemeMid] = { "#f8f8f2", "#bd93f9" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
